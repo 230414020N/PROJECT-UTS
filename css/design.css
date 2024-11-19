@@ -1,0 +1,38 @@
+nav {
+  z-index: 999;
+}
+
+#about {
+  height: 100vh;
+}
+
+#projects {
+  background-color: rgb(230, 230, 230);
+}
+
+h1 {
+  font-style: italic;
+}
+
+btn primary{
+  background-color: rgb(142, 183, 236);
+}
+
+
+nav {
+  color: white;
+  background: hsla(0, 0%, 100%, 1);
+  background: linear-gradient(45deg, hsla(0, 0%, 100%, 1) 2%, hsla(238, 74%, 61%, 1) 60%, hsla(179, 67%, 66%, 1) 70%);
+  background: -moz-linear-gradient(45deg, hsla(0, 0%, 100%, 1) 2%, hsla(238, 74%, 61%, 1) 60%, hsla(179, 67%, 66%, 1) 70%);
+  background: -webkit-linear-gradient(45deg, hsla(0, 0%, 100%, 1) 2%, hsla(238, 74%, 61%, 1) 60%, hsla(179, 67%, 66%, 1) 70%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#5257e5", GradientType=1 );
+}
+
+footer {
+  color: white;
+  background: hsla(179, 67%, 66%, 1);
+  background: linear-gradient(90deg, hsla(179, 67%, 66%, 1) 0%, hsla(238, 74%, 61%, 1) 100%); 
+  background: -moz-linear-gradient(90deg, hsla(179, 67%, 66%, 1) 0%, hsla(238, 74%, 61%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(179, 67%, 66%, 1) 0%, hsla(238, 74%, 61%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6FE3E1", endColorstr="#5257E5", GradientType=1 );
+}
